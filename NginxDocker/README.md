@@ -7,7 +7,7 @@ NginxDocker/
          index.html
          style.css
      -> Dockerfile
-
+![](FilesCreation.png)
 
 # Step 2: Create the Dockerfile
 
@@ -34,19 +34,20 @@ EXPOSE 80
 #Keeps Nginx running in the foreground
 CMD ["nginx", "-g", "daemon off;"]
 
-
+![](dockerScript.png)
 
 # Step 3: Build the Docker Image
 
 docker build -t djibsec-web.
 
+![] (dockerBuild.png)
 
 
 
 # Step 4: Run the Container
 
 docker run -d -p 80:80 djibsec.com
-
+![](ContainerRun.png)
 
 # Step 5: Visit http://localhost:80 
-
+![](Webapp.png)
