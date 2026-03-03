@@ -8,12 +8,11 @@ In this step, I am creating a custom page for your website. This setup allows yo
 
 # Step 1: Create Project Structure
 
-<b> NginxDocker/ </b>
-     ->DjibsecWeb
-         index.html
-         style.css
-     -> Dockerfile
-     <br>
+<b>NginxDocker/ </b> <br>
+   <b>|-DjibsecWeb/</b><br>
+       <b>|  |-index.html</b><br>
+       <b>|  |-style.css</b><br>
+   <b>|Dockerfile </b><br>
 ![](FilesCreation.png)
 
 # Step 2: Create the Dockerfile
