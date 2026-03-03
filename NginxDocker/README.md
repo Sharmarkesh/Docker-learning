@@ -13,6 +13,7 @@ In this step, I am creating a custom page for your website. This setup allows yo
              <b>|  |-index.html</b><br>
              <b>|  |-style.css</b><br>
    <b>|Dockerfile </b><br>
+   <br>
 ![](FilesCreation.png)
 
 # Step 2: Create the Dockerfile
