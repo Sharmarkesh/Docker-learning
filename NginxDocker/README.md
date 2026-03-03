@@ -10,8 +10,8 @@ In this step, I am creating a custom page for your website. This setup allows yo
 
 <b>NginxDocker/ </b> <br>
    <b>|-DjibsecWeb/</b><br>
-       <b>|  |-index.html</b><br>
-       <b>|  |-style.css</b><br>
+             <b>|  |-index.html</b><br>
+             <b>|  |-style.css</b><br>
    <b>|Dockerfile </b><br>
 ![](FilesCreation.png)
 
